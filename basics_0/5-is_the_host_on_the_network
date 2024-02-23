@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # pings an IP address passed as an argument.
-$1
 if [ -n "$1" ]
 then
 	ping "$1"
